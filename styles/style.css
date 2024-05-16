@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+    width: 1440px;
+    height: 720px;
+    border: 1px solid lightgrey;
+    
+}
+.header{
+    
+    padding: 0 32px;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-bar{
+    width: 188px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+
+}
+.left-bar span{
+    margin: 1.5px 0 1.5px 8px;
+}
+.right-bar{
+    width: 232px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-bar_item{
+    width: 56px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-bar_item-img{
+    width: 24px;
+    height: 24px;
+}
+.navbar{
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  height: 40px;
+}
+.tabs{
+    width: 286px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-item{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tabs-item_first{
+    width: 106px;
+}
+.tabs-item_second{
+    width: 88px;
+}
+.tabs-item_third{
+    width: 92px;
+}
+.tabs-item_first:hover, .tabs-item_second:hover, .tabs-item_third:hover{
+    background: #D3D8DE;
+    cursor: pointer;
+}
+#app{
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+}
+.data-wrapper{
+    display: flex;
+}
+.data-wrapper img{
+    width: 250px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+@media (max-width:1400px) {
+    .wrapper{
+        width: 1024px;
+    }
+    
+}
+@media (max-width:1026px) {
+    .wrapper{
+        width: 769px;
+    }
+    
+}
+@media (max-width:520px) {
+    
+        .header{
+            flex-direction: column;
+        
+    }
+    
+}
+@media (max-width:440px) {
+    .wrapper{
+        width: 320px;
+    }
+    
+}

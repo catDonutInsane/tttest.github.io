@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script
+  
+    src="https://api-maps.yandex.ru/v3/?apikey=af510a33-f7ee-4b6c-af76-3acea1a248b9&lang=en_US"
+    
+  ></script> 
+  <script
+    crossorigin
+    src="https://cdn.jsdelivr.net/npm/@babel/standalone@7/babel.min.js"
+  ></script>
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="left-bar">
+                <img src="img/icons/Union.png" alt="union">
+                <span>User pages - Profile</span>
+            </div>
+            <div class="right-bar">
+                <div class="right-bar_item">
+                    <img class="right-bar_item-img" src="img/icons/Chart Outline.jpg" alt="chart">
+                    <span>Statistics</span>
+                </div>
+                <div class="right-bar_item">
+                    <img class="right-bar_item-img" src="img/icons/Calculate Outline.jpg" alt="Calculate">
+                    <span>Invoices</span>
+                </div>
+                <div class="right-bar_item">
+                    <img class="right-bar_item-img" src="img/icons/Receipt Outline.jpg" alt="Receipt">
+                    <span>Shedule</span>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="tabs">
+                <div class="tabs-item portfolio tabs-item_first">
+                    <img src="img/icons/Menu Outline.jpg" alt="">
+                    <span>Activity</span>
+                </div>
+                <div class="tabs-item map tabs-item_second">
+                    <img src="img/icons/Location Outline.jpg" alt="">
+                    <span>Map</span>
+                </div>
+                <div class="tabs-item clock tabs-item_third">
+                    <img src="img/icons/Time Outline.jpg" alt="">
+                    <span>Time</span>
+                </div>
+            </div>
+            <div class="menu"></div>
+
+        </nav>
+        <section id="app">
+
+        </section>
+       
+    </div>
+    <script type="module" src="./src/map.js"></script>
+    <script type="module" src="./src/script.js"> </script>
+   
+</body>
+
+</html>
